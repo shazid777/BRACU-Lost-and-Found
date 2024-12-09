@@ -88,23 +88,8 @@ To run your project on the university lab PC, follow these steps:
      python app.py
      ```
 
-#### 7.3 **Set Up the Frontend (React)**
-   - Navigate to the `frontend` directory:
-     ```bash
-     cd ../frontend
-     ```
-   - **Install Node.js and npm**: If not installed, download and install Node.js from [nodejs.org](https://nodejs.org).
-   - **Install frontend dependencies**:
-     ```bash
-     npm install
-     ```
-   - **Run the React development server**:
-     ```bash
-     npm start
-     ```
-   - The frontend should now be running, and you can access it by navigating to `http://localhost:3000`.
 
-### 8. **Access the Application**
+### 7. **Access the Application**
    - **Backend**: If you're running the Flask app, it will be accessible at `http://localhost:5000` or another port if configured differently.
    - **Frontend**: The React app will be accessible at `http://localhost:3000`.
 
