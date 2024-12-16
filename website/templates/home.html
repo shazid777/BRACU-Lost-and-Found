@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+  {% if current_user.is_authenticated %}
+    <h1>Welcome back, {{ current_user.first_name }}!</h1>
+    <p>You are logged in. Click below to view and update your profile.</p>
+    <div>
+      <a href="{{ url_for('views.profile') }}" class="btn btn-primary">Go to Profile</a>
+    </div>
+  {% else %}
+    <h1>Welcome to BRACU Lost and Found!</h1>
+    <p>Please log in or sign up to get started.</p>
+    <div>
+
+    </div>
+  {% endif %}
+{% endblock %}
